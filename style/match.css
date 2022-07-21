@@ -1,0 +1,102 @@
+
+
+.country-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 130px;
+}
+
+.match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.match-time {
+    border: 1px solid #E8E8E8;
+    max-Width: 312px;
+    height: 240px;
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.country-img span{
+    padding-bottom:5px ;
+}
+
+
+.country-img img {
+}
+
+.country-name {
+    margin-top: 30px;
+}
+
+.country-name a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ @media screen and (max-width: 688px) {
+        .country-area{
+            display: inline-block;
+            margin-top: 30px;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 0;
+            margin-right: 0;
+            display: grid;
+            justify-content: center;
+            margin: auto;
+        }
+        .side-nav{
+            text-align: center;
+        }
+        .match{
+            grid-template-columns: repeat(1, 1fr);
+             max-width: 100%;
+        }
+        .match-time{
+            margin-left: auto;
+            margin-right: auto;
+            flex-wrap: wrap;
+        }
+ }
+
+
+ @media only screen and (min-width: 689px) and (max-width: 991.98px) {
+    .sidenav {
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        background-color: #ffff;
+        margin-bottom: 50px;
+        margin-left: 32px;
+    }
+
+    .country-area{
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+    .sidenav a {
+        padding: 10px 40px;
+        border: 1px solid gray;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .match{
+        grid-template-columns: repeat(2, 1fr);
+         max-width: 100%;
+         margin-left: 10px;
+         margin-right: 10px;
+    }
+    .match-time{
+        margin-left: auto;
+        flex-wrap: wrap;
+    }
+ }
