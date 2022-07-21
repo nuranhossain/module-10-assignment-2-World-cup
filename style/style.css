@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-/* Slider-Area */
+/* banner-Area */
 
 .mx-auto{
     margin-left: auto;
@@ -68,15 +68,13 @@ body {
     border: 1px solid #dd0000;
 }
 
-.title-area a i:hover {
-    
-}
-
 .title-area i {
   color: #ffff;
   font-size: 20px;
   margin-left: 7px;
 }
+
+/* Banner Thumb Img  */
 
 .banner-thumb img {
   position: absolute;
@@ -86,6 +84,8 @@ body {
   bottom: 0;
 }
 
+/* Blog area  */
+
 .match-area {
   margin-top: 130px;
   display: grid;
@@ -94,6 +94,8 @@ body {
   grid-template-columns: 1fr 3fr;
   grid-gap: 30px;
 }
+
+/* side nav bar */
 
 .sidenav {
     display: flex;
@@ -222,6 +224,7 @@ footer a {
   color: white;
   margin-left: 30px;
   margin-bottom: 30px;
+  transition: 0.3s;
 }
 
 footer a:hover{
@@ -238,12 +241,13 @@ hr {
     font-size: 30px;
     margin-top: 40px;
     margin-right: 20px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .social i:hover{
     color: orangered;
 }
+
 
 
 /* Mobile devicee */
@@ -304,6 +308,8 @@ hr {
     display: block;
   }
 }
+
+/* Tab devices  */
 
 @media only screen and (min-width: 689px) and (max-width: 991.98px){
     body{
